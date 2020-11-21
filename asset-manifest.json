@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.9d8ed591.chunk.css",
+    "main.js": "/personal-website/static/js/main.c0ec70e5.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.c0ec70e5.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.a0be9ecd.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.a0be9ecd.js.map",
+    "static/js/2.166eb8b4.chunk.js": "/personal-website/static/js/2.166eb8b4.chunk.js",
+    "static/js/2.166eb8b4.chunk.js.map": "/personal-website/static/js/2.166eb8b4.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "static/css/main.9d8ed591.chunk.css.map": "/personal-website/static/css/main.9d8ed591.chunk.css.map",
+    "static/js/2.166eb8b4.chunk.js.LICENSE.txt": "/personal-website/static/js/2.166eb8b4.chunk.js.LICENSE.txt",
+    "static/media/archieandleroy.416480af.jpg": "/personal-website/static/media/archieandleroy.416480af.jpg",
+    "static/media/backyard.728cea3e.jpg": "/personal-website/static/media/backyard.728cea3e.jpg",
+    "static/media/brideandgroom.8037970b.jpg": "/personal-website/static/media/brideandgroom.8037970b.jpg",
+    "static/media/bridge.c30babdb.jpg": "/personal-website/static/media/bridge.c30babdb.jpg",
+    "static/media/chessboard.ca57878a.jpg": "/personal-website/static/media/chessboard.ca57878a.jpg",
+    "static/media/cocktail.208d8492.jpg": "/personal-website/static/media/cocktail.208d8492.jpg",
+    "static/media/App.css": "/personal-website/static/media/img-8.fabdf94d.jpg",
+    "static/media/img-4.a31875b7.jpg": "/personal-website/static/media/img-4.a31875b7.jpg",
+    "static/media/img-5.7fadbe1b.jpg": "/personal-website/static/media/img-5.7fadbe1b.jpg",
+    "static/media/pool.af079705.jpg": "/personal-website/static/media/pool.af079705.jpg",
+    "static/media/rer_video.621858ec.mp4": "/personal-website/static/media/rer_video.621858ec.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0be9ecd.js",
+    "static/js/2.166eb8b4.chunk.js",
+    "static/css/main.9d8ed591.chunk.css",
+    "static/js/main.c0ec70e5.chunk.js"
+  ]
+}
