@@ -1,0 +1,14 @@
+.form__container {
+    align-content: center;
+    /* color: white; */
+    /* background-image: url('../images/img-5.jpg'); */
+}
+
+.form__group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form__group {
+    background-color: blue;
+}
