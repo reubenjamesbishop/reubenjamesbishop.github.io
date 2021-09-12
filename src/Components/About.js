@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import profilepic from '../Images/profilepic.jpg';
 
 class About extends Component {
   render() {
@@ -6,7 +7,6 @@ class About extends Component {
     if(this.props.data){
       var name = this.props.data.name;
       // var profilepic= "images/"+this.props.data.image;
-      var profilepic= "images/profilepic.jpg";
       var bio = this.props.data.bio;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
@@ -16,6 +16,7 @@ class About extends Component {
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
     }
+
 
     return (
       <section id="about">
