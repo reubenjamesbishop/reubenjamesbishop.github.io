@@ -8,7 +8,8 @@ class Header extends Component {
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
-      var profilepic= "images/"+this.props.data.image;
+      // var profilepic= "images/"+this.props.data.image;
+      var profilepic= "images/profilepic.jpg";
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -36,8 +37,8 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
          {/* <img className="profile-pic"  src={profilepic} alt="Reuben Bishop Profile Pic" /> */}
-            <h1 className="responsive-headline">Hi, I'm {name}.</h1>
-            <h3>{description}</h3>
+            <h1 className="responsive-headline">Hi, I'm Reuben.</h1>
+            <h3>Engineer, developer, and passionate about software, data science, technical leadership and continous learning.</h3>
             <hr />
             <ul className="social">
                {networks}
