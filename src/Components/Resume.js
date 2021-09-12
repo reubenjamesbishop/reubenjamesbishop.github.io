@@ -41,9 +41,9 @@ class Resume extends Component {
                  <div>
                   <h3>The University of Adelaide</h3>
                   <p className="info">Bachelor (Honours) Mechanical Engineering, 2016-2020</p>
-                  <p>Awarded with First Class Honours. GPA: 6.250/7.000</p>
+                  <p>Awarded with First Class Honours. GPA: 6.25/7.00</p>
                   <p className="info">Bachelor of Mathematical and Computer Sciences, 2016-2020</p>
-                  <p>Computer Science Major. GPA: 6.250/7.000</p>
+                  <p>Computer Science Major. GPA: 6.25/7.00</p>
                   {/* <p>{education.description}</p> */}
                 </div>
                </div>

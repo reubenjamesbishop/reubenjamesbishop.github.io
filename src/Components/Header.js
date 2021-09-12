@@ -9,10 +9,28 @@ class Header extends Component {
       var description= this.props.data.description;
       var city= this.props.data.address.city;
       // var profilepic= "images/"+this.props.data.image;
+      // var networks= this.props.data.social.map(function(network){
+      //   return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      // })
+
       var profilepic= "images/profilepic.jpg";
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
+
+      var social = [
+         {
+           "name": "linkedin",
+           "url": "https://www.linkedin.com/in/reubenbishop/",
+           "className": "fa fa-linkedin"
+         },
+         {
+           "name": "github",
+           "url": "http://github.com/reubenjamesbishop",
+           "className": "fa fa-github"
+         }
+       ]
+
+       var networks=social.map(function(network){
+         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+       })
     }
 
     return (
