@@ -17,7 +17,8 @@ class About extends Component {
    //    var resumeDownload = '../';
    //  }
 
-   var resumeDownload = '../';
+   // var resumeDownload = '../src/Components/resume.pdf';
+   var resumeDownload = 'https://drive.google.com/file/d/1Uo-UtqiR4fyZhPj4bsu9S8dAErpNt4Sj/view';
 
     return (
       <section id="about">
