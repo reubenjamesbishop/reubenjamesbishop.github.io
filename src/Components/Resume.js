@@ -134,7 +134,7 @@ class Resume extends Component {
     </div>
 
 
-      <div className="row skill">
+      <div className="row skill education">
 
          <div className="three columns header-col">
             <h1><span>Personal Projects</span></h1>
@@ -145,7 +145,7 @@ class Resume extends Component {
 				<div className="bars">
 
            <div key="Acture"><h3>Acture.io</h3>
-            <p className="info"><a href="www.google.com">www.acture.com</a><span>&bull;</span> <em className="date">November 2018 - February 2019</em></p>
+            <p className="info"><a href="#">www.acture.com</a><span>&bull;</span> <em className="date">November 2018 - February 2019</em></p>
             <p>
               &bull; Co-Founder of Acture, a software platform that's helping digital advertisers automatically create more engaging social content using big data. <br/>
               &bull; Winner of the Enabled Solutions eChallenge prize, 2020.<br/>
@@ -157,16 +157,35 @@ class Resume extends Component {
 
           <div key="Other Projects"><h3>Other Projects</h3>
             <p>
-              &bull; <a>Plaid! The Game</a>. Adelaide University Game-Jam, People's Choice Winner. <i>ThreeJS.</i><br/>
-              &bull; <a>River's End Retreat</a>. Commercial Website. <i>ReactJS + Heroku CI/CD)</i><br/>
-              &bull; <a>Multi-resolution Image Viewer</a>. Broswer-based Google street-view clone. <i>ThreeJS.</i><br/>
-              &bull; Mechanical Engineering Honours Project in underwater energy harvesting using magnetostrictive materials.<br/>
+              &bull; <a href="https://plaid-one.vercel.app/">Plaid! The Game</a>. Adelaide University Game-Jam entry 2018, People's Choice Winner.<i> Made with ThreeJS + Blender.</i><br/>
+              &bull; <a href="https://angular-ivy-4ypaft.stackblitz.io/">Bird Watching Dashboard</a>. High stakes competition for logging bird sighting, with bonus features.<i> Made with AngularJS + Stackblitz.</i><br/>
+              &bull; <a href="https://angular-ivy-4ypaft.stackblitz.io/">BLUF Management App.</a>. For managing lunchtime BLUF presentations at work.<i> Made with ReactJS + Airtable + Stackblitz.</i><br/>
+              &bull; <a href="https://elegant-ardinghelli-0e2186.netlify.app/">River's End Retreat</a>. First attempt and building a simple react webpage for a local busines.<i> Made with ReactJS + Heroku for CI/CD.</i><br/>
+              &bull; <a href="https://image-viewer-one.vercel.app/">Multi-resolution Image Viewer</a>. Browser-based streetview-esque tool for viewing 360cam outputs.<i> Made with ThreeJS.</i><br/>
             </p>
           </div>
 
 				</div>
 			</div>
       </div>
+
+    <div className="row skill">
+        <div className="three columns header-col">
+          <h1><span>certifications</span></h1>
+        </div>
+        <div className="nine columns main-col">
+          <div className="bars">
+            <div key="Other Projects">
+              <p>
+                &bull; <b>Certified Scrum Master® (CSM®)</b>, completed November 2021.<br />
+                &bull; <b>Linux Foundation Certified Engineer (LFCE)</b>, in progress.<br />  
+                &bull; <b>SysML for Model Based Systems Engineering</b>, completed June 2021.<br />  
+                </p>
+            </div>
+          </div>
+        </div>
+    </div>
+      
    </section>
     );
   }
